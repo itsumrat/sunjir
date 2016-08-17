@@ -209,6 +209,59 @@ Copyright 2015-2015 Saddam Azad
     }
   }
 } */
+ul {
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+
+ul li {
+  margin-bottom: 25px; 
+  list-style: none;
+}
+
+ul li img {
+  cursor: pointer;
+}
+
+.modal-body {
+  padding: 5px !important;
+}
+
+.modal-content {
+  border-radius: 0;
+}
+
+.modal-dialog img {
+  margin: 0 auto; 
+  text-align: center;
+}
+
+.controls {
+  display: block;
+  width: 50px;
+  padding-top: 8px;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.next {
+  float: right;
+  text-align: right;
+}
+
+/*override modal for demo only*/
+.modal-dialog {
+  max-width: 500px;
+  padding-top: 90px;
+}
+
+@media screen and (min-width: 768px) {
+  .modal-dialog {
+    width: 500px;
+    padding-top: 90px;
+  }
+}
+
 #home-portfolio .header-text {
   text-align: center;
 }
