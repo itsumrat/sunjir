@@ -130,7 +130,9 @@ var map;
 
 
   /*============== Light Gallery ==============*/
-  $("#lightgallery").lightGallery(); 
+  $('#aniimated-thumbnials').lightGallery({
+        thumbnail:true
+    }); 
 
 
 });
