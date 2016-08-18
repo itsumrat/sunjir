@@ -34,6 +34,7 @@ Copyright 2015-2015 Saddam Azad
 }
 #header-section .navbar-nav li .fa {
   padding: 7px;
+  color: pink; 
   background-color: #fff;
   border-radius: 50%;
 }
@@ -45,16 +46,22 @@ Copyright 2015-2015 Saddam Azad
   background:         linear-gradient(to right, #7a8cef, #b558e0);
 }
 #header-section .navbar-nav .nav-link {
-  padding: 10px 25px;
+  padding: 10px 35px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
   color: #fff;
   text-transform: uppercase;
+  -webkit-transition: 1s;
+       -o-transition: 1s;
+          transition: 1s;
 }
 #header-section .navbar-nav .nav-link:hover {
   color: #fff;
   text-decoration: none; 
-  background-color: #b558e0;
+  background: -webkit-gradient(linear, left top, right top, from(#7a8cef), to(#b558e0));
+  background: -webkit-linear-gradient(left, #7a8cef, #b558e0);
+  background:      -o-linear-gradient(left, #7a8cef, #b558e0);
+  background:         linear-gradient(to right, #7a8cef, #b558e0);
   border-radius: 32px;
 }
 
@@ -215,11 +222,12 @@ ul {
 }
 
 ul li {
-  margin-bottom: 25px; 
+  margin-bottom: 5px; 
   list-style: none;
 }
 
 ul li img {
+  max-height: 225px; 
   cursor: pointer;
 }
 
@@ -262,6 +270,9 @@ ul li img {
   }
 }
 
+#home-portfolio {
+  padding-bottom: 25px;
+}
 #home-portfolio .header-text {
   text-align: center;
 }
@@ -279,22 +290,8 @@ ul li img {
   padding-bottom: 10px;
 }
 
-/*============ Collage ============*/
-.Collage img {
-  /* 
-    * Change this to try different borders
-    */
-  border: 6px solid #fff; 
-  border-radius: 6px;
-  -webkit-box-shadow: 0 3px 4px #dcdcdc;
-          box-shadow: 0 3px 4px #dcdcdc;
-}
-
-.Collage {
-  /* 
-     * Change this to set the spacing of the images in the grid
-     */
-  padding: 10px;
+#contact {
+  padding-top: 3rem;
 }
 
 .dn {
@@ -441,7 +438,7 @@ a:visited {
 
 /* Slide 5 */
 #slide5 {
-  padding: 20px 0 100px 0;
+  padding: 40px 0 100px 0;
   background-color: #f7f5f2;
 }
 

@@ -4,10 +4,11 @@
       }
       ul li {     
           list-style:none;
-          margin-bottom:25px;           
+          margin-bottom:5px;           
       }
       ul li img {
           cursor: pointer;
+          max-height: 225px;
       }
       .modal-body {
           padding:5px !important;
@@ -42,6 +43,7 @@
           }          
       }
 #home-portfolio {
+  padding-bottom: 25px;
 	.header-text {
 		text-align: center;
 
@@ -56,19 +58,3 @@
 	}
 }
 
-/*============ Collage ============*/
-.Collage img{
-    //opacity:0;
-    box-shadow:0px 3px 4px #dcdcdc;
-    border-radius: 6px;
-    /* 
-    * Change this to try different borders
-    */
-    border:6px solid #FFF;
-}
- .Collage{
-    /* 
-     * Change this to set the spacing of the images in the grid
-     */
-    padding:10px;
-  }
